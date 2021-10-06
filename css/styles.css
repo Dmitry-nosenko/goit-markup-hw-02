@@ -134,7 +134,7 @@ body {
 
 /* стили portfolio.html */
 
-.filter-section .button {
+.portfolio-section .button {
   background-color: var(--team-bcg-color);
   color: var(--title-text-color);
   cursor: pointer;
@@ -146,8 +146,8 @@ body {
   border-radius: 4px;
   min-width: 73px;
 }
-.filter-section .button:hover,
-.filter-section .button:focus {
+.portfolio-section .button:hover,
+.portfolio-section .button:focus {
   background-color: var(--hover-focus-color);
   color: var(--primary-white-color);
 }
@@ -155,12 +155,13 @@ body {
 /* project gallery */
 
 .portfolio-section .title {
+  color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.pportfolio-section .text {
+.portfolio-section .text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
